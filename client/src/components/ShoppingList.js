@@ -42,7 +42,7 @@ class ShoppingList extends Component {
                                                 items: state.items.filter(item => item.id !== id)
                                             }));
                                         }}
-                                    >&items;</Button>
+                                    >&times;</Button>
                                     {name}
                                 </ListGroupItem>
                             </CSSTransition>
