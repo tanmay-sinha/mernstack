@@ -1,2 +1,2 @@
 # mernstack
-learning mern stack
+learning mern stack especially react with redux.
