@@ -5,13 +5,21 @@ import './App.css';
 import AppNavBar from './components/AppNavbar';
 import ShoppingList from './components/ShoppingList';
 
-function App() {
-  return (
-    <div className="App">
-      <AppNavBar/>
-      <ShoppingList/>
-    </div>
-  );
+import { Provider } from 'react-redux';
+import store from './store';
+
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="App">
+          <AppNavBar />
+          <ShoppingList />
+        </div>
+      </Provider>
+    )
+  }
 }
+
 
 export default App;
