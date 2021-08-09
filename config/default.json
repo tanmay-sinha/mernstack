@@ -1,4 +1,4 @@
 {
     "mongoURI": "mongodb://localhost:27017/mernapp",
-    "jwtsecret": "chal_chal_baap_ko_mat_sikha"
+    "jwtsecret": "hello_world_some random_key"
 }
